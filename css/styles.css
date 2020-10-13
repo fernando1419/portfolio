@@ -12739,4 +12739,33 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 body {
   font-family: "Montserrat Alternates", sans-serif;
 }
+
+#hero {
+  background: url("../images/code.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hero > div.container {
+  padding-top: 8rem;
+}
+
+#hero a.button {
+  opacity: .7;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#hero a.button:hover {
+  opacity: 1;
+}
+
+#hero a.button:active,
+#hero a.button:focus,
+#hero a.button:visited {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,28 @@
+#hero {
+   background: url("../images/code.jpg");
+   background-size: cover;
+   font-family: $montserrat;
+}
+
+#hero>div.container {
+   padding-top: 8rem;
+}
+
+#hero a.button {
+   opacity: .7;
+   border-radius: 10px;
+   font-family: $josefin;
+}
+
+#hero a.button:hover {
+   opacity: 1;
+}
+
+// removes blue border after click
+#hero a.button:active,
+#hero a.button:focus,
+#hero a.button:visited {
+   outline: none;
+   border: none;
+   box-shadow: none;
+}
