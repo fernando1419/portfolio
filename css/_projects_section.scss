@@ -1,0 +1,20 @@
+#projects {
+   background-color: #f8f9fa;
+}
+
+#projects .container > h1.title {
+   font-family: $caladea;
+   color: $grey;
+}
+
+.card-content {
+   padding: 1.6rem 0 0 0;
+}
+
+#projects .card-header-title {
+   font-family: $vesper;
+}
+
+#projects figure.image img:hover {
+   opacity: 0.9;
+}
