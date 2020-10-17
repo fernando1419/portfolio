@@ -1,0 +1,26 @@
+footer.footer {
+   // min-height: 15vh;
+   font-family: $montserrat;
+   font-size: 1.3rem;
+   padding-bottom: 0;
+}
+
+footer.footer a {
+   color: $white;
+}
+
+footer.footer a:hover {
+   opacity: 0.8;
+}
+
+footer .copy {
+   font-size: 0.9rem;
+}
+
+
+// footer ul {
+//    display: inline-flex;
+//    justify-content: center;
+//    flex-wrap: wrap;
+//    align-items: center;
+// }

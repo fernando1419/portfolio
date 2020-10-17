@@ -12789,4 +12789,22 @@ body {
 #projects figure.image img:hover {
   opacity: 0.9;
 }
+
+footer.footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  padding-bottom: 0;
+}
+
+footer.footer a {
+  color: white;
+}
+
+footer.footer a:hover {
+  opacity: 0.8;
+}
+
+footer .copy {
+  font-size: 0.9rem;
+}
 /*# sourceMappingURL=styles.css.map */
