@@ -12807,4 +12807,8 @@ footer.footer a:hover {
 footer .copy {
   font-size: 0.9rem;
 }
+
+#aboutme img {
+  border-radius: 50%;
+}
 /*# sourceMappingURL=styles.css.map */
