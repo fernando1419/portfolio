@@ -12740,6 +12740,10 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
+nav.navbar {
+  height: 4.6rem;
+}
+
 #hero {
   background: url("../images/code.jpg");
   background-size: cover;
@@ -12810,5 +12814,11 @@ footer .copy {
 
 #aboutme img {
   border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  nav.navbar {
+    height: 0;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
