@@ -1,3 +1,22 @@
+@media screen and (max-width: $tablet) {
+   #projects h1.title {
+      font-size: 1.4rem;
+   }
+
+   #aboutme h1.title {
+      font-size: 1.4rem;
+   }
+
+   #aboutme p {
+      font-size: 1rem;
+   }
+
+   footer.footer a {
+      font-size: 1rem;
+   }
+
+}
+
 @media screen and (max-width: $desktop) {
    nav.navbar {
       height: 0;

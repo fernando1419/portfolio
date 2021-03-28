@@ -1,3 +1,8 @@
 #aboutme img {
    border-radius: 50%;
+   opacity: 1;
+}
+
+#aboutme img:hover {
+   opacity: .8;
 }
