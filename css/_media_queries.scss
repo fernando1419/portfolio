@@ -1,4 +1,24 @@
 @media screen and (max-width: $tablet) {
+   #top-arrow {
+      font-size: .6rem;
+   }
+
+   nav.navbar code {
+      font-size: .8rem;
+      opacity: .4;
+   }
+
+   #hero {
+      h1.title {
+         font-size: 1.5rem;
+      }
+
+      p.subtitle {
+         font-size: 1rem;
+      }
+   }
+
+
    #projects h1.title {
       font-size: 1.4rem;
    }
@@ -8,7 +28,7 @@
    }
 
    #aboutme p {
-      font-size: 1rem;
+      font-size: 0.9rem;
    }
 
    footer.footer a {
@@ -20,5 +40,13 @@
 @media screen and (max-width: $desktop) {
    nav.navbar {
       height: 0;
+   }
+
+   nav.navbar code {
+      margin-left: 0.9rem;
+   }
+
+   nav .navbar-burger {
+      margin-right: 0.5rem;
    }
 }

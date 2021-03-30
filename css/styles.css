@@ -12740,8 +12740,40 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
+#top-arrow {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  border-style: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#top-arrow {
+  color: blue;
+}
+
+#top-arrow :hover {
+  color: grey;
+  cursor: pointer;
+}
+
 nav.navbar {
-  height: 4.6rem;
+  height: 4.1rem;
+  -webkit-box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.6);
+}
+
+nav.navbar code {
+  font-size: 1.1rem;
+  color: #f1f1f1;
+  background-color: transparent;
+  font-weight: bolder;
+  color: #00ff00;
+  opacity: .6;
 }
 
 #hero {
@@ -12827,6 +12859,19 @@ footer .copy {
 }
 
 @media screen and (max-width: 769px) {
+  #top-arrow {
+    font-size: .6rem;
+  }
+  nav.navbar code {
+    font-size: .8rem;
+    opacity: .4;
+  }
+  #hero h1.title {
+    font-size: 1.5rem;
+  }
+  #hero p.subtitle {
+    font-size: 1rem;
+  }
   #projects h1.title {
     font-size: 1.4rem;
   }
@@ -12834,7 +12879,7 @@ footer .copy {
     font-size: 1.4rem;
   }
   #aboutme p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   footer.footer a {
     font-size: 1rem;
@@ -12844,6 +12889,12 @@ footer .copy {
 @media screen and (max-width: 1024px) {
   nav.navbar {
     height: 0;
+  }
+  nav.navbar code {
+    margin-left: 0.9rem;
+  }
+  nav .navbar-burger {
+    margin-right: 0.5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
