@@ -12863,8 +12863,11 @@ footer .copy {
     font-size: .6rem;
   }
   nav.navbar code {
-    font-size: .8rem;
+    font-size: .9rem;
     opacity: .4;
+  }
+  nav.navbar .navbar-menu {
+    font-size: .9rem;
   }
   #hero h1.title {
     font-size: 1.5rem;
@@ -12895,6 +12898,15 @@ footer .copy {
   }
   nav .navbar-burger {
     margin-right: 0.5rem;
+  }
+  nav.navbar .navbar-menu {
+    background-color: #363636;
+  }
+  nav.navbar .navbar-menu .navbar-item {
+    color: #fff;
+  }
+  nav.navbar .navbar-menu .navbar-item:hover {
+    color: #363636;
   }
 }
 /*# sourceMappingURL=styles.css.map */
